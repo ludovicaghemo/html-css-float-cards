@@ -7,4 +7,53 @@
 
 body{
     font-family: "Fredoka", sans-serif;
+    text-align: center;
+    font-size: 1rem;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+h1{
+    color: #e53170;
+    font-size: 2rem;
+    margin: 1em;
+}
+
+.row {
+    margin-top: 4em;
+}
+
+.col{
+    background-color: #0f0e17;
+    float: left;
+    width: calc(100% / 3);
+    padding: 20px;
+    /* Debug */
+    border: 1px solid white;
+    min-height: 40px;
+    text-align: left;
+}
+
+.float-left {
+    float: left;
+}
+
+.info {
+    padding: auto 10px;
+    text-align: left;
+}
+
+.name,
+.job {
+    color: white;
+}
+
+
+.mail {
+    color: #2dacdd;
+}
+
